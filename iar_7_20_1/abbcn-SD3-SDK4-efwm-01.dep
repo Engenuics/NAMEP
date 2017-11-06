@@ -1,0 +1,3401 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1441515281</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\bsp\configuration.h</file>
+      <file>$PROJ_DIR$\..\bsp\abbcn-ehdw-01.h</file>
+      <file>$PROJ_DIR$\..\application\accelerometer_lis2dh.h</file>
+      <file>$PROJ_DIR$\..\bsp\i2c_master.h</file>
+      <file>$PROJ_DIR$\..\bsp\interrupts.h</file>
+      <file>$PROJ_DIR$\..\bsp\leds_abbcn.h</file>
+      <file>$PROJ_DIR$\..\bsp\utilities.h</file>
+      <file>$PROJ_DIR$\..\bsp\abbcn-ehdw-01.c</file>
+      <file>$PROJ_DIR$\..\bsp\i2c_master.c</file>
+      <file>$PROJ_DIR$\..\bsp\interrupts.c</file>
+      <file>$PROJ_DIR$\..\bsp\leds_abbcn.c</file>
+      <file>$PROJ_DIR$\..\bsp\utilities.c</file>
+      <file>$PROJ_DIR$\..\application\lcd_bitmaps.h</file>
+      <file>$PROJ_DIR$\..\application\accelerometer_lis2dh.c</file>
+      <file>$PROJ_DIR$\..\application\main.h</file>
+      <file>$PROJ_DIR$\..\application\pov.h</file>
+      <file>$PROJ_DIR$\..\application\typedefs.h</file>
+      <file>$PROJ_DIR$\..\application\lcd_bitmaps.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\iar_startup_nrf51.s</file>
+      <file>$PROJ_DIR$\..\application\main.c</file>
+      <file>$PROJ_DIR$\..\application\pov.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\twi_hw_master.c</file>
+      <file>$PROJ_DIR$\..\bsp\mpg51-ehdw-01.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nRF51422_QFAA.icf</file>
+      <file>$PROJ_DIR$\..\bsp\mpg51-ehdw-01.h</file>
+      <file>$PROJ_DIR$\..\bsp\leds_nRF51.h</file>
+      <file>$PROJ_DIR$\..\application\ant_text_nrf.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_advdata.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_db_discovery.h</file>
+      <file>$PROJ_DIR$\..\bsp\spi_master.c</file>
+      <file>$PROJ_DIR$\..\bsp\leds_nRF51.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ias.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_rscs.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_flash.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_racp.h</file>
+      <file>$PROJ_DIR$\..\bsp\spi_master.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_error_log.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\spi_master.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_dtm.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_conn_params.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_sensorsim.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_db_discovery.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hrs_c.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_advdata_parser.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_lls.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_tps.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_soc.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_sensorsim.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_manager_peripheral.pbi</file>
+      <file>$PROJ_DIR$\..\bsp\soc_integration.c</file>
+      <file>$PROJ_DIR$\..\bsp\soc_integration.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_dfu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_bas_c.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\device_manager\device_manager_central.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_bps.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_radio_notification.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_dtm.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hts.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51.c</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\mpg51-SD3-SDK4-efwm-01.hex</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_racp.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\softdevice_handler.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_radio_notification.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_advdata.c</file>
+      <file>$PROJ_DIR$\Debug\List\utilities.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ant_text_nrf.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_debug_assert_handler.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bps.h</file>
+      <file>$PROJ_DIR$\Debug\List\interrupts.lst</file>
+      <file>$PROJ_DIR$\Debug\List\mpg51-ehdw-01.lst</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\Debug\List\soc_integration.lst</file>
+      <file>$PROJ_DIR$\Debug\List\leds_nRF51.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nordic_common.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_dfu.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_dis.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf51.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf51_bitfields.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_cscs.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_delay.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ant_stack_handler_types.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_assert.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_tps.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_rscs.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_debug_assert_handler.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_sc_ctrlpt.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_gattc.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_srv_common.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_err.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ias.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\simple_uart.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\twi_sw_master.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\system_nrf51422.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_gap.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_gatt.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_radio_notification.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_racp.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hids.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hts.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_lls.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas_c.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ans_c.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ias_c.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hids.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_flash.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs_c.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_rscs.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_error_log.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ias.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_lls.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_sensorsim.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls_db.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hts.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas_c.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\console.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bps.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf_delay.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_sensor_location.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_uart.c</file>
+      <file>$PROJ_DIR$\..\bsp\n51mp-ehdw-01.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_uart_fifo.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\hci_mem_pool.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_scheduler.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_button.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_dfu.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\hci_slip.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\twi_hw_master.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\mpg51-SD3-SDK4-efwm-01.out</file>
+      <file>$PROJ_DIR$\..\bsp\n51mp-ehdw-01.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci_mem_pool.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_tps.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_srv_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_dis.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\mpg51-efwm-01.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\console.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bps.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_scheduler.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mpg51-ehdw-01.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\twi_hw_master.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_gpiote.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bas_c.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_fifo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\twi_sw_master.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_db_discovery.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\soc_integration.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_error_log.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\mpg51-ehdw-01.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\system_nrf51.c</file>
+      <file>$PROJ_DIR$\Debug\List\ble_gls_db.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_hids.lst</file>
+      <file>$PROJ_DIR$\..\mpg_application\Source\iar_startup_nrf51.s</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_conn_params.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_cscs.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ias_c.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iar_startup_nrf51.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_debug_assert_handler.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ias_c.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf51_deprecated.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_delay.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_cscs.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_assert.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\crc16.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_nvmc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_ecb.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_flash.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_manager_peripheral.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_manager_central.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_manager_central.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds_nRF51.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_delay.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_ecb.c</file>
+      <file>$PROJ_DIR$\..\drivers\utilities.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds_nRF51.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf_assert.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_nvmc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\abbcn-ehdw-01.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_error_log.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls_db.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_uart_fifo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_radio_notification.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci_slip.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_fifo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci_transport.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_gpiote.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\abbcn-SD3-SDK4-efwm-01.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_scheduler.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_uart_fifo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci_mem_pool.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci_slip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci_transport.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\crc16.lst</file>
+      <file>$PROJ_DIR$\Debug\List\app_fifo.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\soc_integration.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c_master.o</file>
+      <file>$PROJ_DIR$\..\mpg_application\soc_integration.c</file>
+      <file>$PROJ_DIR$\..\drivers\leds.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\abbcn-SD3-SDK4-efwm-01.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_sensorsim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\abbcn-ehdw-01.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds_abbcn.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\abbcn-ehdw-01.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c_master.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds_abbcn.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\accelerometer_lis2dh.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\leds_abbcn.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\pov.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pov.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\i2c_master.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\accelerometer_lis2dh.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_dis.c</file>
+      <file>$PROJ_DIR$\Debug\List\pov.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd_bitmaps.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd_bitmaps.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\twi_master.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_cscs.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\hci_transport.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs_c.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_dfu.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_debug_assert_handler.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\device_manager\device_manager_peripheral.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_ans_c.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hrs.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bas.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_bas.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_sc_ctrlpt.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hids.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_racp.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_dfu.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_sc_ctrlpt.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_tps.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_rscs.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\system_nrf51422.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ans_c.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\app_util.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_srv_common.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_db_discovery.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_advdata.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_tps.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_advdata_parser.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_ans_c.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf51.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_bas.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_nvmc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\softdevice_handler.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_timer.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf.h</file>
+      <file>$PROJ_DIR$\Debug\List\ble_racp.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_sensorsim.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\system_nrf51.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nrf51_bitfields.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\spi_master.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_fifo.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\ant_error.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_assert.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_gpiote.c</file>
+      <file>$PROJ_DIR$\Debug\List\ble_tps.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_advdata.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\List\spi_master.lst</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\twi_sw_master.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_button.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\console.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\ble_dfu.lst</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\List\ble_advdata_parser.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\nrf_sdm.h</file>
+      <file>$PROJ_DIR$\Debug\List\ble_lls.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_debug_assert_handler.lst</file>
+      <file>$PROJ_DIR$\Debug\List\iar_startup_nrf51.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_dis.lst</file>
+      <file>$PROJ_DIR$\Debug\List\nrf_assert.lst</file>
+      <file>$PROJ_DIR$\Debug\List\mpg51-SD3-SDK4-efwm-01.map</file>
+      <file>$PROJ_DIR$\Debug\List\ble_radio_notification.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_rscs.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_gls.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_error.h</file>
+      <file>$PROJ_DIR$\Debug\List\ble_sc_ctrlpt.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\ant_text_nrf.o</file>
+      <file>$PROJ_DIR$\Debug\List\ble_srv_common.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_nvmc.h</file>
+      <file>$PROJ_DIR$\Debug\List\ble_bps.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_hrs.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_cscs.lst</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\List\nrf_soc.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_ias.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_soc.h</file>
+      <file>$PROJ_DIR$\Debug\List\ble_ias_c.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_hts.lst</file>
+      <file>$PROJ_DIR$\Debug\List\ble_bas.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\ant_text_nrf.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_ecb.h</file>
+      <file>$PROJ_DIR$\Debug\List\app_gpiote.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\List\system_nrf51.lst</file>
+      <file>$PROJ_DIR$\Debug\List\app_timer.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_gls_db.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\sdk_common.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\sdk_os.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\sdk_errors.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_delay.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\simple_uart.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\spi_master.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_assert.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager_central.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_ecb.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager_peripheral.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ans_c.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_sc_ctrlpt.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_srv_common.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_dis.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_srv_common.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\mpg_application\main.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\spi_master.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\nrf_error.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_db_discovery.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\system_nrf51.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_advdata_parser.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\ant_interface.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\app_fifo.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_nvmc.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\app_error.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\nrf_error_soc.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\nrf_soc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hrs_c.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\nrf_error_sdm.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\ant_parameters.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\ant\nrf_soc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_button.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\m2n51-ehdw-02.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_flash.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\simple_uart.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\spi_master.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51422.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_stack_handler_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\m2n51-ehdw-02.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\mpg51-efwm-01.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51422.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_dtm.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_gls_db.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_gls.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_gls.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\softdevice_handler.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_ias.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hids.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_ias_c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hts.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hrs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_radio_notification.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_racp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_sensorsim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_dtm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_advdata.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_advdata_parser.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_error_log.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_conn_params.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hrs_c.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_dis.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\n51mp-ehdw-01.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\softdevice_handler.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_advdata.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\compiler_abstraction.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_ecb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_soc.pbi</file>
+      <file>$PROJ_DIR$\..\bsp\m2n51-ehdw-02.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_dtm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\n51mp-ehdw-01.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\app_scheduler.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_conn_params.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_advdata_parser.h</file>
+      <file>$PROJ_DIR$\..\bsp\leds.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\compiler_abstraction.h</file>
+      <file>$PROJ_DIR$\..\bsp\m2n51-ehdw-02.h</file>
+      <file>$PROJ_DIR$\..\bsp\iar_startup_nrf51.s</file>
+      <file>$PROJ_DIR$\..\bsp\leds.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_sc_ctrlpt.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_debug_assert_handler.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\simple_uart.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\crc16.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_date_time.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_master.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_master.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\app_gpiote.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_conn_params.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\app_util.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\app_common\app_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hids.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hts.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_gatts.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_hrs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_ias.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_ias_c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_lls.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_rscs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_lls.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\console.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\softdevice_handler.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_hci.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_assert.pbi</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_l2cap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51422.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_ecb.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_gls.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_delay.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_nvmc.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_soc.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_ranges.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_gls_db.o</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\ble_types.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\nrf_error.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\nrf_sdm.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\nrf_soc.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\nrf_svc.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\app_error.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_assert.c</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\nrf_error_sdm.h</file>
+      <file>$PROJ_DIR$\..\nordic_sdk6_1\s310\nrf_error_soc.h</file>
+      <file>$PROJ_DIR$\Debug\List\accelerometer_lis2dh.lst</file>
+      <file>$PROJ_DIR$\Debug\List\lcd_bitmaps.lst</file>
+      <file>$PROJ_DIR$\..\nordic_sdk4_2_2\Include\nordic_common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_bps.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_bas_c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_cscs.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\twi_hw_master.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MPG\mpg_source\Branch\firmware_nrf51422\abbcn-efrw-01 POV LED Test Firmware\nordic_sdk4_2_2\Source\iar_startup_nrf51.s</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\abbcn-ehdw-01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\i2c_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227 213</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\interrupts.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 264</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\leds_abbcn.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 367</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\application\accelerometer_lis2dh.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 471 228</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\application\lcd_bitmaps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 472 231</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\iar_startup_nrf51.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 167 301</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\application\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\application\pov.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 230 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\twi_hw_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 477 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233 381 383 254 252 249 398 384 289 250 0 405 166 411 401 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233 381 383 254 252 249 398 384 289 250 0 405 166 411 401 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 3 12 1 5 276</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\mpg51-ehdw-01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\application\ant_text_nrf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 310</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_advdata.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 288 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 410 383 254 252 249 398 384 289 250 381 411 166 401 93 459 461 101 465 451 95 462 102 92 440 77 308 343</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 410 383 254 252 249 398 384 289 250 381 411 166 401 93 459 461 101 465 451 95 462 102 92 440 261 412 77 308 343</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\spi_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 433</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\leds_nRF51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 4 14 16 6 35 24 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ias.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 386</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 442</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_rscs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 445</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\spi_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 433</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_dtm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 396</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 416 383 254 252 249 398 384 289 250 381 411 166 401 69 412</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 416 383 254 252 249 398 384 289 250 381 411 166 401 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_conn_params.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 403</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 419 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 343 381 405 166 77 449</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 419 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 343 381 261 412 405 166 77 449</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_db_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 350</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 383 254 252 249 398 384 289 250 92 102 461 459 465 93 101 451 95 462 440 308 343 381 405 166 411 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 383 254 252 249 398 384 289 250 92 102 461 459 465 93 101 451 95 462 440 308 343 381 261 412 405 166 411 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hrs_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 404</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_advdata_parser.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 297 268</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 420 410 383 254 252 249 398 384 289 250 381 411 166 401 93 459 461 101 465 451 95 462 102 92 440</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 420 410 383 254 252 249 398 384 289 250 381 411 166 401 93 459 461 101 465 451 95 462 102 92 440 261 412</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_lls.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 446</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 444</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_tps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_sensorsim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 395</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\soc_integration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 50 4 14 16 6 24 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 270 61 53 128 467 56 280 281 170 188 126 349 363 358 298 361 354 362 284 357 50 4 14 16 6 24 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\device_manager\device_manager_central.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_dtm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 396</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 378</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hts.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 452</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 381 69 412 336</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_racp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 394</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\softdevice_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 448</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_radio_notification.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 392</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_advdata.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 138 304</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_tps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287 267</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 343 381 411 166 401</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 257 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 343 381 261 412 411 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_rscs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 445</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 306 258</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_debug_assert_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 300 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 427 383 254 252 249 398 384 289 250 411 166 401 82 61 53 128 467 56 336 36 381 33 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 427 383 254 252 249 398 384 289 250 411 166 401 82 61 53 128 467 56 336 36 381 33 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_sc_ctrlpt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 426</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 309 256</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 127 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 127 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_srv_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 311 262</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343 383 254 252 249 398 384 289 250 381 461 101 459 465 102 411 166 401 77 466 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 343 383 254 252 249 398 384 289 250 381 461 261 412 101 459 465 102 411 166 401 77 466 308</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\simple_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 393</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 69 412 334 381 85 326 82 61 53 128 467 56 336 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\twi_sw_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381 383 254 252 249 398 384 289 250 85 69 412</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\system_nrf51422.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 377</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 381 69 412 336</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_radio_notification.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 305</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 383 254 252 249 398 384 289 250 381 319 82 61 53 128 467 56 336 405 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 383 254 252 249 398 384 289 250 381 319 82 61 53 128 467 56 336 405 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_racp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 394</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 405 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 405 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hids.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 387</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161 438</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 411 166 401 466 308 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 411 166 401 466 308 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 383 254 252 249 398 384 289 250 381 82 61 53 128 467 56 336 405 166 411 401 319 77 308 69 412 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 383 254 252 249 398 384 289 250 381 82 61 53 128 467 56 336 405 166 411 401 319 77 308 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_error_log.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 402</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401 383 381 82 61 53 128 467 56 336 36 33 466 308 326 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 411 254 252 249 398 384 289 250 166 401 383 381 82 61 53 128 467 56 336 36 33 261 412 466 308 326 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ias.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 386</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 318 442</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 411 166 401 343 381</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 411 166 401 343 381 261 412</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_lls.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 446</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 444</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 343 381 411 166 401 449</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 343 381 261 412 411 166 401 449</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_sensorsim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279 395</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 383 254 252 249 398 384 289 250 381</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 383 254 252 249 398 384 289 250 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 322 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hts.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 321 439</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 430 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 430 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 475</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 28 308 343 381 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 383 254 252 249 398 384 289 250 93 459 461 101 465 451 95 462 102 92 440 28 308 343 381 261 412 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\console.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 447 383 254 252 249 398 384 289 250 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 474</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 313 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 430 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 430 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 412 326 82 61 383 254 252 249 398 384 289 250 53 128 467 56 336 83 466 381 308 261</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_uart_fifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 412 326 82 61 383 254 252 249 398 384 289 250 53 128 467 56 336 83 466 381 308 261</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\hci_mem_pool.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381 248 254 252 249 398 384 289 250 166 253</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_scheduler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 383 411 401 319 82 61 53 128 467 56 336 87 261 381 412</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\hci_slip.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 83 61 383 53 128 467 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\mpg51-SD3-SDK4-efwm-01.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 304</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 23 190 228 213 167 264 231 222 183 225 150 367 263 291 316 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\n51mp-ehdw-01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 417</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 408</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 4 6 130 421</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 474</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bas_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 475</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_db_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 411 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_error_log.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 402</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401 383 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\system_nrf51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 452</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\mpg_application\Source\iar_startup_nrf51.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_conn_params.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 403</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 435</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ias_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 388</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 320 443</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 343 383 254 252 249 398 384 289 250 381 461 101 459 465 102 92 93 451 95 462 440 411 166 401</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111 343 383 254 252 249 398 384 289 250 381 461 261 412 101 459 465 102 92 93 451 95 462 440 411 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_debug_assert_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ias_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 388</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 443</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_cscs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 476</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 383 254 252 249 398 384 289 250 248 166 253</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 429 383 254 252 249 398 384 289 250 248 166 253</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 390</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 383 411 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248 254 252 249 398 384 289 250 166 253 412 69 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_ecb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 413</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 381 411 401 69 412 324 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 367</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_nvmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381 69 412 312 383 254 252 249 398 384 289 250</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls_db.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160 460</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 383 254 252 249 398 384 289 250 108 381 93 459 461 101 465 451 95 462 102 92 440 343 430</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121 383 254 252 249 398 384 289 250 108 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 430</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\mpg_application\soc_integration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_dis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 302 406</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 383 254 252 249 398 384 289 250 343 381 461 101 459 465 102 405 166 411 401 466 308 440 451 95 462 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 383 254 252 249 398 384 289 250 343 381 461 261 412 101 459 465 102 405 166 411 401 466 308 440 451 95 462 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_cscs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 476</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 342 127 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 342 127 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\hci_transport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 412 261 383 254 252 249 398 384 289 250 381 466 308 248 166 253</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 382</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 307</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 430 411 166 401 34 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 430 411 166 401 34 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 114 93 459 461 101 465 451 95 462 102 92 440 28 308 343 381 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 383 254 252 249 398 384 289 250 114 93 459 461 101 465 451 95 462 102 92 440 28 308 343 381 261 412 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 314 441</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 411 166 401 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 383 254 252 249 398 384 289 250 381 93 459 461 101 465 451 95 462 102 92 440 343 261 412 411 166 401 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_dfu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 383 254 252 249 398 384 289 250 440 461 459 451 95 462 465 101 102 93 92 343 381 308 77 411 166 401 346</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 383 254 252 249 398 384 289 250 440 461 459 451 95 462 465 101 102 93 92 343 381 261 412 308 77 411 166 401 346</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\device_manager\device_manager_peripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hrs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 441</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bas.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_sc_ctrlpt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 426</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 256</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hids.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 387</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 438</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_dfu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 411 166 401 346</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\system_nrf51422.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 377</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ans_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 242</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 328 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 437 383 254 252 249 398 384 289 250 381 248 166 253 357 349 436 422 270 61 53 128 467 56 280 418 405 281 363 277 170 358 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 437 383 254 252 249 398 384 289 250 381 248 166 253 357 349 436 422 270 61 53 128 467 56 280 418 405 281 363 277 170 358 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_fifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355 383 254 252 249 398 384 289 250 405 166 349 436 422 270 61 53 128 467 56 280 357 381</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355 383 254 252 249 398 384 289 250 405 166 349 436 422 270 61 53 128 467 56 280 357 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\nrf_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 450</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188 383 254 252 249 398 384 289 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188 383 254 252 249 398 384 289 250</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_gpiote.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 325 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 434 383 254 252 249 398 384 289 250 381 277 422 270 61 53 128 467 56 280 281 170 357 349 436 405 166 411 401 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 434 383 254 252 249 398 384 289 250 381 277 422 270 61 53 128 467 56 280 281 170 357 349 436 405 166 411 401 276</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248 254 252 249 398 384 289 250 166 253 412 69 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 248 254 252 249 398 384 289 250 166 253 412 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 450</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 383 254 252 249 398 384 289 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 383 254 252 249 398 384 289 250</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager_central.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 383 254 252 249 398 384 289 250 381 330 411 166 401 77 412 331 332 308 93 459 461 101 465 451 95 462 102 92 440 410 449 466</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 383 254 252 249 398 384 289 250 381 330 411 166 401 77 412 331 332 308 261 93 459 461 101 465 451 95 462 102 92 440</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_ecb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 413</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 381 411 401 69 412 324 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 405 254 252 249 398 384 289 250 166 381 411 401 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager_peripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 383 254 252 249 398 384 289 250 381 330 411 166 401 77 412 331 332 308 93 459 461 101 465 451 95 462 102 92 440 410 449 466</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 383 254 252 249 398 384 289 250 381 330 411 166 401 77 412 331 332 308 261 93 459 461 101 465 451 95 462 102 92 440</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ans_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 93 459 461 383 254 252 249 398 384 289 250 101 465 451 95 462 102 92 440 343 381 79 330 411 166 401 77 412 331 332 308 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 93 459 461 383 254 252 249 398 384 289 250 101 465 451 95 462 102 92 440 343 381 261 412 79 330 411 166 401 77 331 332 308</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_dis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 406</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 411 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_srv_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\mpg_application\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422 188 126 349 363 358 298 361 354 362 284 357 4 6 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 473 277 422</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\spi_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282 381 383 254 252 249 398 384 289 250 126 277 422 270 61 53 128 467 56 280 281 170 276 432</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 282 381 383 254 252 249 398 384 289 250 126 277 422 270 61 53 128 467 56 280 281 170 276 432</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\system_nrf51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 327 452</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 381 277 422 270 61 53 128 467 56 280 281 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 383 254 252 249 398 384 289 250 381 277 422 270 61 53 128 467 56 280 281 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_advdata_parser.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_nvmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381 69 412 312 383 254 252 249 398 384 289 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 381 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 414</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 317 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 319 383 82 61 53 128 467 56 336 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 405 254 252 249 398 384 289 250 166 319 383 82 61 53 128 467 56 336 308</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\app_common\app_button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401 77 261 383 381 412 466 308</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\simple_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 69 412 334 381 85 326 82 61 53 128 467 56 336 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 383 254 252 249 398 384 289 250 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\spi_master.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 433</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 466 383 254 252 249 398 384 289 250 381 308 326 82 61 53 128 467 56 336 83 319 335 405 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 466 383 254 252 249 398 384 289 250 381 308 326 82 61 53 128 467 56 336 83 319 335 405 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51422.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 377</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250 381 69 412 336</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 383 254 252 249 398 384 289 250 381 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\mpg51-efwm-01.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 144 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_gls_db.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 460</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_gls.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 382</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 455</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411 254 252 249 398 384 289 250 166 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\softdevice_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 409 405 254 252 249 398 384 289 250 166 77 463 465 82 61 383 53 128 467 56 336 464 381 83 470 462 469 466 308 373 86 87 319</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 409 405 254 252 249 398 384 289 250 166 77 463 465 82 61 383 53 128 467 56 336 464 381 83 470 462 469 466 308</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\m2n51-ehdw-02.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 366</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 374</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 4 6 423 421</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\iar_startup_nrf51.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 167 301</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\bsp\leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 405 254 252 249 398 384 289 250 166 411 401 381 383 4 6 24 421</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\simple_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 393</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 254 252 249 398 384 289 250</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_ecb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 413</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166 381 411 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248 254 252 249 398 384 289 250 166 253</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_nvmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 414</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 254 252 249 398 384 289 250 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 450</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ias.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_rscs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\spi_master.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_dtm.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_conn_params.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_db_discovery.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hrs_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_lls.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_tps.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_sensorsim.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\device_manager\device_manager_central.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_dtm.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hts.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_racp.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\softdevice_handler.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_radio_notification.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_advdata.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_radio_notification.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_flash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_error_log.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_bas_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bps.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bas_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_db_discovery.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_error_log.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\system_nrf51.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_conn_params.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_debug_assert_handler.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ias_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_cscs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_flash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_gls.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_hrs_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\device_manager\device_manager_peripheral.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hrs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_bas.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_sc_ctrlpt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_hids.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_dfu.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\system_nrf51422.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_ans_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_delay.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager_central.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_ecb.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\device_manager\device_manager_peripheral.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\ble\ble_services\ble_ans_c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_dis.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_srv_common.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\mpg_application\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk4_2_2\Source\spi_master.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_advdata_parser.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\nrf_nvmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\simple_uart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\system_nrf51422.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_gls_db.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\ble\ble_services\ble_gls.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\softdevice_handler.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\simple_uart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_ecb.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_delay.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_nvmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_soc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\nordic_sdk6_1\Source\nrf_assert.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\mpg_application\Source\iar_startup_nrf51.s</name>
+      <tool>AARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
